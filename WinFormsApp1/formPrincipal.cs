@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -50,6 +51,13 @@ namespace WinFormsApp1
         private void bindingSource1_CurrentChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void formPrincipal_Load(object sender, EventArgs e)
+        {
+            string connection = "server=localhost;uid=root;database=sistemaMercado";
+            var conexao = new MySqlConnection(connection);
+            conexao.Open();
         }
     }
 }

@@ -163,6 +163,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Sistema de Vendas Completo";
             WindowState = FormWindowState.Maximized;
+            Load += formPrincipal_Load;
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
             ResumeLayout(false);
