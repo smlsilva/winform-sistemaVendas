@@ -67,5 +67,11 @@ namespace WinFormsApp1
         {
             textBox17.Text = DateTime.Now.ToString().Split(" ")[0];
         }
+
+        private void vendasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            formVendas formularioVenda = new formVendas();
+            formularioVenda.ShowDialog();
+        }
     }
 }

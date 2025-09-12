@@ -100,6 +100,9 @@
             textBox1 = new TextBox();
             label1 = new Label();
             tabPage2 = new TabPage();
+            button6 = new Button();
+            button5 = new Button();
+            button4 = new Button();
             textBox17 = new TextBox();
             label21 = new Label();
             comboBox3 = new ComboBox();
@@ -127,9 +130,6 @@
             tabPage7 = new TabPage();
             tabPage8 = new TabPage();
             tabPage9 = new TabPage();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
             menuStrip1.SuspendLayout();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
@@ -190,6 +190,7 @@
             vendasToolStripMenuItem.Name = "vendasToolStripMenuItem";
             vendasToolStripMenuItem.Size = new Size(56, 20);
             vendasToolStripMenuItem.Text = "Vendas";
+            vendasToolStripMenuItem.Click += vendasToolStripMenuItem_Click;
             // 
             // novaVendaToolStripMenuItem
             // 
@@ -643,6 +644,36 @@
             tabPage2.Click += tabPage2_Click;
             tabPage2.Enter += tabPage2_Enter;
             // 
+            // button6
+            // 
+            button6.Anchor = AnchorStyles.None;
+            button6.Location = new Point(530, 429);
+            button6.Name = "button6";
+            button6.Size = new Size(158, 57);
+            button6.TabIndex = 23;
+            button6.Text = "Cancelar";
+            button6.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            button5.Anchor = AnchorStyles.None;
+            button5.Location = new Point(315, 429);
+            button5.Name = "button5";
+            button5.Size = new Size(158, 57);
+            button5.TabIndex = 22;
+            button5.Text = "Editar";
+            button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            button4.Anchor = AnchorStyles.None;
+            button4.Location = new Point(93, 430);
+            button4.Name = "button4";
+            button4.Size = new Size(158, 57);
+            button4.TabIndex = 21;
+            button4.Text = "Salvar";
+            button4.UseVisualStyleBackColor = true;
+            // 
             // textBox17
             // 
             textBox17.Location = new Point(573, 371);
@@ -882,36 +913,6 @@
             tabPage9.TabIndex = 8;
             tabPage9.Text = "Configurações";
             tabPage9.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            button4.Anchor = AnchorStyles.None;
-            button4.Location = new Point(93, 430);
-            button4.Name = "button4";
-            button4.Size = new Size(158, 57);
-            button4.TabIndex = 21;
-            button4.Text = "Salvar";
-            button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            button5.Anchor = AnchorStyles.None;
-            button5.Location = new Point(315, 429);
-            button5.Name = "button5";
-            button5.Size = new Size(158, 57);
-            button5.TabIndex = 22;
-            button5.Text = "Editar";
-            button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            button6.Anchor = AnchorStyles.None;
-            button6.Location = new Point(530, 429);
-            button6.Name = "button6";
-            button6.Size = new Size(158, 57);
-            button6.TabIndex = 23;
-            button6.Text = "Cancelar";
-            button6.UseVisualStyleBackColor = true;
             // 
             // formCad
             // 
