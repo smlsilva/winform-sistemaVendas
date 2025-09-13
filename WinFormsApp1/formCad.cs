@@ -42,17 +42,6 @@ namespace WinFormsApp1
 
         }
 
-        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            foreach (TabPage tab in tabControl1.TabPages)
-            {
-                if (tab.Text == "Cadastro de Clientes")
-                {
-                    tabControl1.SelectedTab = tab;
-                }
-            }
-        }
-
         private void label7_Click(object sender, EventArgs e)
         {
 
@@ -72,6 +61,55 @@ namespace WinFormsApp1
         {
             formVendas formularioVenda = new formVendas();
             formularioVenda.ShowDialog();
+        }
+
+        private void label31_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (TabPage tab in tabControl1.TabPages)
+            {
+                if (tab.Name == "tabPage1") // Cadastro de Clientes
+                {
+                    tabControl1.SelectedTab = tab;
+                }
+            }
+        }
+
+        private void produtosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (TabPage tab in tabControl1.TabPages)
+            {
+                if (tab.Name == "tabPage2") // Cadastro de Produtos
+                {
+                    tabControl1.SelectedTab = tab;
+                }
+            }
+        }
+
+        private void fornecedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (TabPage tab in tabControl1.TabPages)
+            {
+                if (tab.Name == "tabPage3") // Cadastro de Fornecedores
+                {
+                    tabControl1.SelectedTab = tab;
+                }
+            }
+        }
+
+        private void usuáriosFuncionáriosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (TabPage tab in tabControl1.TabPages)
+            {
+                if (tab.Name == "tabPage4") // Cadastro de Usuário/Funcionario
+                {
+                    tabControl1.SelectedTab = tab;
+                }
+            }
         }
     }
 }

@@ -55,9 +55,9 @@ namespace WinFormsApp1
 
         private void formPrincipal_Load(object sender, EventArgs e)
         {
-            string connection = "server=localhost;uid=root;database=sistemaMercado";
-            var conexao = new MySqlConnection(connection);
-            conexao.Open();
+            //string connection = "server=localhost;uid=root;database=sistemaMercado";
+            //var conexao = new MySqlConnection(connection);
+            //conexao.Open();
         }
     }
 }

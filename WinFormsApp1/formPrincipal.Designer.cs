@@ -65,7 +65,7 @@
             // 
             // panel2
             // 
-            panel2.BackColor = SystemColors.ControlDark;
+            panel2.BackColor = Color.White;
             panel2.Controls.Add(button5);
             panel2.Controls.Add(button4);
             panel2.Controls.Add(button3);
@@ -142,7 +142,7 @@
             button1.Name = "button1";
             button1.Size = new Size(148, 100);
             button1.TabIndex = 1;
-            button1.Text = "Cadastro Cliente";
+            button1.Text = "Cadastro Geral";
             button1.TextImageRelation = TextImageRelation.ImageAboveText;
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
