@@ -111,5 +111,10 @@ namespace WinFormsApp1
                 }
             }
         }
+
+        private void textBox38_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

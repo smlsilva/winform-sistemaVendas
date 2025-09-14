@@ -58,6 +58,18 @@
             suporteToolStripMenuItem = new ToolStripMenuItem();
             toolTip1 = new ToolTip(components);
             tabPage4 = new TabPage();
+            button10 = new Button();
+            button12 = new Button();
+            textBox35 = new TextBox();
+            textBox36 = new TextBox();
+            textBox37 = new TextBox();
+            textBox38 = new TextBox();
+            textBox39 = new TextBox();
+            label39 = new Label();
+            label40 = new Label();
+            label41 = new Label();
+            label42 = new Label();
+            label43 = new Label();
             tabPage3 = new TabPage();
             maskedTextBox3 = new MaskedTextBox();
             maskedTextBox2 = new MaskedTextBox();
@@ -142,18 +154,20 @@
             label2 = new Label();
             label1 = new Label();
             tabControl1 = new TabControl();
-            button10 = new Button();
-            button12 = new Button();
-            textBox35 = new TextBox();
-            textBox36 = new TextBox();
-            textBox37 = new TextBox();
-            textBox38 = new TextBox();
-            textBox39 = new TextBox();
-            label39 = new Label();
-            label40 = new Label();
-            label41 = new Label();
-            label42 = new Label();
-            label43 = new Label();
+            maskedTextBox4 = new MaskedTextBox();
+            maskedTextBox5 = new MaskedTextBox();
+            maskedTextBox6 = new MaskedTextBox();
+            maskedTextBox7 = new MaskedTextBox();
+            maskedTextBox8 = new MaskedTextBox();
+            maskedTextBox9 = new MaskedTextBox();
+            label33 = new Label();
+            comboBox4 = new ComboBox();
+            groupBox3 = new GroupBox();
+            label34 = new Label();
+            radioButton1 = new RadioButton();
+            radioButton2 = new RadioButton();
+            radioButton3 = new RadioButton();
+            label35 = new Label();
             menuStrip1.SuspendLayout();
             tabPage4.SuspendLayout();
             tabPage3.SuspendLayout();
@@ -162,6 +176,7 @@
             tabPage1.SuspendLayout();
             groupBox1.SuspendLayout();
             tabControl1.SuspendLayout();
+            groupBox3.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
@@ -265,6 +280,12 @@
             // 
             // tabPage4
             // 
+            tabPage4.Controls.Add(groupBox3);
+            tabPage4.Controls.Add(comboBox4);
+            tabPage4.Controls.Add(label33);
+            tabPage4.Controls.Add(maskedTextBox9);
+            tabPage4.Controls.Add(maskedTextBox8);
+            tabPage4.Controls.Add(maskedTextBox7);
             tabPage4.Controls.Add(button10);
             tabPage4.Controls.Add(button12);
             tabPage4.Controls.Add(textBox35);
@@ -284,6 +305,117 @@
             tabPage4.TabIndex = 3;
             tabPage4.Text = "Cadastro de Usuários/Funcionários";
             tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            button10.Anchor = AnchorStyles.None;
+            button10.Location = new Point(306, 446);
+            button10.Name = "button10";
+            button10.Size = new Size(158, 57);
+            button10.TabIndex = 27;
+            button10.Text = "Cancelar";
+            button10.UseVisualStyleBackColor = true;
+            // 
+            // button12
+            // 
+            button12.Anchor = AnchorStyles.None;
+            button12.Location = new Point(87, 446);
+            button12.Name = "button12";
+            button12.Size = new Size(158, 57);
+            button12.TabIndex = 25;
+            button12.Text = "Salvar";
+            button12.UseVisualStyleBackColor = true;
+            // 
+            // textBox35
+            // 
+            textBox35.Anchor = AnchorStyles.None;
+            textBox35.Location = new Point(41, 212);
+            textBox35.Name = "textBox35";
+            textBox35.PlaceholderText = "usuario@compania.com";
+            textBox35.Size = new Size(547, 23);
+            textBox35.TabIndex = 23;
+            // 
+            // textBox36
+            // 
+            textBox36.Anchor = AnchorStyles.None;
+            textBox36.Location = new Point(336, 130);
+            textBox36.Name = "textBox36";
+            textBox36.Size = new Size(252, 23);
+            textBox36.TabIndex = 21;
+            // 
+            // textBox37
+            // 
+            textBox37.Anchor = AnchorStyles.None;
+            textBox37.Location = new Point(41, 130);
+            textBox37.Name = "textBox37";
+            textBox37.Size = new Size(215, 23);
+            textBox37.TabIndex = 19;
+            // 
+            // textBox38
+            // 
+            textBox38.Anchor = AnchorStyles.None;
+            textBox38.Location = new Point(436, 44);
+            textBox38.Name = "textBox38";
+            textBox38.Size = new Size(320, 23);
+            textBox38.TabIndex = 17;
+            textBox38.TextChanged += textBox38_TextChanged;
+            // 
+            // textBox39
+            // 
+            textBox39.Location = new Point(41, 44);
+            textBox39.Name = "textBox39";
+            textBox39.Size = new Size(320, 23);
+            textBox39.TabIndex = 15;
+            // 
+            // label39
+            // 
+            label39.Anchor = AnchorStyles.None;
+            label39.AutoSize = true;
+            label39.Location = new Point(41, 194);
+            label39.Name = "label39";
+            label39.Size = new Size(41, 15);
+            label39.TabIndex = 22;
+            label39.Text = "E-mail";
+            // 
+            // label40
+            // 
+            label40.Anchor = AnchorStyles.None;
+            label40.AutoSize = true;
+            label40.Location = new Point(336, 112);
+            label40.Name = "label40";
+            label40.Size = new Size(44, 15);
+            label40.TabIndex = 20;
+            label40.Text = "Celular";
+            // 
+            // label41
+            // 
+            label41.Anchor = AnchorStyles.None;
+            label41.AutoSize = true;
+            label41.Location = new Point(41, 112);
+            label41.Name = "label41";
+            label41.Size = new Size(52, 15);
+            label41.TabIndex = 18;
+            label41.Text = "Telefone";
+            // 
+            // label42
+            // 
+            label42.Anchor = AnchorStyles.None;
+            label42.AutoSize = true;
+            label42.Location = new Point(436, 26);
+            label42.Name = "label42";
+            label42.Size = new Size(28, 15);
+            label42.TabIndex = 16;
+            label42.Text = "CPF";
+            // 
+            // label43
+            // 
+            label43.Anchor = AnchorStyles.None;
+            label43.AutoSize = true;
+            label43.Location = new Point(41, 26);
+            label43.Name = "label43";
+            label43.Size = new Size(96, 15);
+            label43.TabIndex = 14;
+            label43.Text = "Nome Completo";
             // 
             // tabPage3
             // 
@@ -712,6 +844,7 @@
             // 
             textBox11.Location = new Point(68, 55);
             textBox11.Name = "textBox11";
+            textBox11.PlaceholderText = "Digite o nome do produto";
             textBox11.Size = new Size(261, 23);
             textBox11.TabIndex = 1;
             // 
@@ -792,7 +925,7 @@
             // 
             comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox2.FormattingEnabled = true;
-            comboBox2.Items.AddRange(new object[] { "Bedidas", "Higiene Pessoal", "Limpeza", "Utilidades Domésticas", "Pet Shop" });
+            comboBox2.Items.AddRange(new object[] { "Empresa x", "Empresa y", "Empresa z", "Empresa a", "Empresa b" });
             comboBox2.Location = new Point(68, 149);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(295, 23);
@@ -837,6 +970,8 @@
             // 
             // tabPage1
             // 
+            tabPage1.Controls.Add(maskedTextBox5);
+            tabPage1.Controls.Add(maskedTextBox4);
             tabPage1.Controls.Add(button3);
             tabPage1.Controls.Add(button2);
             tabPage1.Controls.Add(button1);
@@ -892,6 +1027,7 @@
             // groupBox1
             // 
             groupBox1.Anchor = AnchorStyles.None;
+            groupBox1.Controls.Add(maskedTextBox6);
             groupBox1.Controls.Add(label11);
             groupBox1.Controls.Add(dateTimePicker1);
             groupBox1.Controls.Add(textBox10);
@@ -1116,114 +1252,140 @@
             tabControl1.Size = new Size(805, 556);
             tabControl1.TabIndex = 3;
             // 
-            // button10
+            // maskedTextBox4
             // 
-            button10.Anchor = AnchorStyles.None;
-            button10.Location = new Point(306, 446);
-            button10.Name = "button10";
-            button10.Size = new Size(158, 57);
-            button10.TabIndex = 27;
-            button10.Text = "Cancelar";
-            button10.UseVisualStyleBackColor = true;
+            maskedTextBox4.Location = new Point(46, 137);
+            maskedTextBox4.Mask = "(99) 99999-9999";
+            maskedTextBox4.Name = "maskedTextBox4";
+            maskedTextBox4.Size = new Size(215, 23);
+            maskedTextBox4.TabIndex = 14;
             // 
-            // button12
+            // maskedTextBox5
             // 
-            button12.Anchor = AnchorStyles.None;
-            button12.Location = new Point(87, 446);
-            button12.Name = "button12";
-            button12.Size = new Size(158, 57);
-            button12.TabIndex = 25;
-            button12.Text = "Salvar";
-            button12.UseVisualStyleBackColor = true;
+            maskedTextBox5.Location = new Point(341, 137);
+            maskedTextBox5.Mask = "(99) 99999-9999";
+            maskedTextBox5.Name = "maskedTextBox5";
+            maskedTextBox5.Size = new Size(252, 23);
+            maskedTextBox5.TabIndex = 15;
             // 
-            // textBox35
+            // maskedTextBox6
             // 
-            textBox35.Anchor = AnchorStyles.None;
-            textBox35.Location = new Point(41, 212);
-            textBox35.Name = "textBox35";
-            textBox35.Size = new Size(547, 23);
-            textBox35.TabIndex = 23;
+            maskedTextBox6.Location = new Point(295, 53);
+            maskedTextBox6.Mask = "00000-000";
+            maskedTextBox6.Name = "maskedTextBox6";
+            maskedTextBox6.Size = new Size(160, 23);
+            maskedTextBox6.TabIndex = 23;
             // 
-            // textBox36
+            // maskedTextBox7
             // 
-            textBox36.Anchor = AnchorStyles.None;
-            textBox36.Location = new Point(336, 130);
-            textBox36.Name = "textBox36";
-            textBox36.Size = new Size(252, 23);
-            textBox36.TabIndex = 21;
+            maskedTextBox7.Location = new Point(436, 44);
+            maskedTextBox7.Mask = "000.000.000-00";
+            maskedTextBox7.Name = "maskedTextBox7";
+            maskedTextBox7.Size = new Size(320, 23);
+            maskedTextBox7.TabIndex = 28;
             // 
-            // textBox37
+            // maskedTextBox8
             // 
-            textBox37.Anchor = AnchorStyles.None;
-            textBox37.Location = new Point(41, 130);
-            textBox37.Name = "textBox37";
-            textBox37.Size = new Size(215, 23);
-            textBox37.TabIndex = 19;
+            maskedTextBox8.Location = new Point(41, 130);
+            maskedTextBox8.Mask = "(99) 99999-9999";
+            maskedTextBox8.Name = "maskedTextBox8";
+            maskedTextBox8.Size = new Size(215, 23);
+            maskedTextBox8.TabIndex = 29;
             // 
-            // textBox38
+            // maskedTextBox9
             // 
-            textBox38.Anchor = AnchorStyles.None;
-            textBox38.Location = new Point(436, 44);
-            textBox38.Name = "textBox38";
-            textBox38.Size = new Size(320, 23);
-            textBox38.TabIndex = 17;
+            maskedTextBox9.Location = new Point(336, 130);
+            maskedTextBox9.Mask = "(99) 99999-9999";
+            maskedTextBox9.Name = "maskedTextBox9";
+            maskedTextBox9.Size = new Size(252, 23);
+            maskedTextBox9.TabIndex = 30;
             // 
-            // textBox39
+            // label33
             // 
-            textBox39.Location = new Point(41, 44);
-            textBox39.Name = "textBox39";
-            textBox39.Size = new Size(320, 23);
-            textBox39.TabIndex = 15;
+            label33.Anchor = AnchorStyles.None;
+            label33.AutoSize = true;
+            label33.Location = new Point(41, 273);
+            label33.Name = "label33";
+            label33.Size = new Size(39, 15);
+            label33.TabIndex = 31;
+            label33.Text = "Cargo";
             // 
-            // label39
+            // comboBox4
             // 
-            label39.Anchor = AnchorStyles.None;
-            label39.AutoSize = true;
-            label39.Location = new Point(41, 194);
-            label39.Name = "label39";
-            label39.Size = new Size(41, 15);
-            label39.TabIndex = 22;
-            label39.Text = "E-mail";
+            comboBox4.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox4.FormattingEnabled = true;
+            comboBox4.Items.AddRange(new object[] { "Açougueiro", "Atendentes de setor", "Assistente Administrativo", "Diretor de vendas e logística", "Empacotador", "Estoquista", "Funcionários de Limpeza", "Gerente", "Operador de Caixa", "Padeiro", "Repositor", "Supervisor", "Segurança" });
+            comboBox4.Location = new Point(41, 291);
+            comboBox4.Name = "comboBox4";
+            comboBox4.Size = new Size(215, 23);
+            comboBox4.TabIndex = 33;
             // 
-            // label40
+            // groupBox3
             // 
-            label40.Anchor = AnchorStyles.None;
-            label40.AutoSize = true;
-            label40.Location = new Point(336, 112);
-            label40.Name = "label40";
-            label40.Size = new Size(44, 15);
-            label40.TabIndex = 20;
-            label40.Text = "Celular";
+            groupBox3.Controls.Add(label35);
+            groupBox3.Controls.Add(radioButton3);
+            groupBox3.Controls.Add(radioButton2);
+            groupBox3.Controls.Add(radioButton1);
+            groupBox3.Controls.Add(label34);
+            groupBox3.Location = new Point(329, 273);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Size = new Size(427, 150);
+            groupBox3.TabIndex = 34;
+            groupBox3.TabStop = false;
+            groupBox3.Text = "Permissões e Sistemas";
             // 
-            // label41
+            // label34
             // 
-            label41.Anchor = AnchorStyles.None;
-            label41.AutoSize = true;
-            label41.Location = new Point(41, 112);
-            label41.Name = "label41";
-            label41.Size = new Size(52, 15);
-            label41.TabIndex = 18;
-            label41.Text = "Telefone";
+            label34.Anchor = AnchorStyles.None;
+            label34.AutoSize = true;
+            label34.Location = new Point(12, 26);
+            label34.Name = "label34";
+            label34.Size = new Size(66, 15);
+            label34.TabIndex = 35;
+            label34.Text = "Permissões";
             // 
-            // label42
+            // radioButton1
             // 
-            label42.Anchor = AnchorStyles.None;
-            label42.AutoSize = true;
-            label42.Location = new Point(436, 26);
-            label42.Name = "label42";
-            label42.Size = new Size(28, 15);
-            label42.TabIndex = 16;
-            label42.Text = "CPF";
+            radioButton1.AutoSize = true;
+            radioButton1.Location = new Point(17, 44);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(101, 19);
+            radioButton1.TabIndex = 36;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "Administrador";
+            radioButton1.UseVisualStyleBackColor = true;
             // 
-            // label43
+            // radioButton2
             // 
-            label43.Anchor = AnchorStyles.None;
-            label43.AutoSize = true;
-            label43.Location = new Point(41, 26);
-            label43.Name = "label43";
-            label43.Size = new Size(96, 15);
-            label43.TabIndex = 14;
-            label43.Text = "Nome Completo";
+            radioButton2.AutoSize = true;
+            radioButton2.Location = new Point(17, 69);
+            radioButton2.Name = "radioButton2";
+            radioButton2.Size = new Size(66, 19);
+            radioButton2.TabIndex = 37;
+            radioButton2.TabStop = true;
+            radioButton2.Text = "Suporte";
+            radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton3
+            // 
+            radioButton3.AutoSize = true;
+            radioButton3.Location = new Point(17, 94);
+            radioButton3.Name = "radioButton3";
+            radioButton3.Size = new Size(88, 19);
+            radioButton3.TabIndex = 38;
+            radioButton3.TabStop = true;
+            radioButton3.Text = "Funcionário";
+            radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // label35
+            // 
+            label35.Anchor = AnchorStyles.None;
+            label35.AutoSize = true;
+            label35.Location = new Point(210, 26);
+            label35.Name = "label35";
+            label35.Size = new Size(53, 15);
+            label35.TabIndex = 39;
+            label35.Text = "Sistemas";
             // 
             // formCad
             // 
@@ -1255,6 +1417,8 @@
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             tabControl1.ResumeLayout(false);
+            groupBox3.ResumeLayout(false);
+            groupBox3.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -1373,5 +1537,19 @@
         private Label label41;
         private Label label42;
         private Label label43;
+        private MaskedTextBox maskedTextBox5;
+        private MaskedTextBox maskedTextBox4;
+        private MaskedTextBox maskedTextBox6;
+        private MaskedTextBox maskedTextBox9;
+        private MaskedTextBox maskedTextBox8;
+        private MaskedTextBox maskedTextBox7;
+        private ComboBox comboBox4;
+        private Label label33;
+        private GroupBox groupBox3;
+        private RadioButton radioButton3;
+        private RadioButton radioButton2;
+        private RadioButton radioButton1;
+        private Label label34;
+        private Label label35;
     }
 }
